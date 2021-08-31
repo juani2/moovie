@@ -1,0 +1,40 @@
+.navbar {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar__brand {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    color: var(--color-brand-dark);
+}
+
+.navbar__search {
+    display: flex;
+}
+
+.navbar__search input[type="text"] {
+    height: 32px;
+    border-radius: 1rem;
+    border-width: 1px;
+    border-color: var(--color-brand-dark);
+    padding: 0.5rem;
+}
+
+.navbar__search input[type="text"]:focus {
+    outline-style:dotted
+}
+
+.navbar__search button[type="submit"] {
+    padding: 0.5rem;
+    background-color: var(--color-brand-primary);
+    border-width: 0;
+    border-radius: 1rem;
+}
+
+.navbar__search button[type="submit"]:hover{
+    background-color: #fe5d8b;
+}

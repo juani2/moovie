@@ -1,0 +1,12 @@
+.moviecard {
+  text-align: center;
+  flex: 0 1 250px;
+  border-radius: 8px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 14px #c7c7c7, -5px -5px 14px #f9f9f9;
+}
+
+.moviecard img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}

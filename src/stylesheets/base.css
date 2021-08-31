@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@300;400;700&display=swap');
+
+
+/* Custom Properties */
+*:root {
+    /* Color Pallete From Color Hunt:
+     * link: https://colorhunt.co/palette/2c003e512b58fe346ed2fafb
+     */
+    --color-brand-primary: #FE346E;
+    --color-brand-secondary: #512B58;
+    --color-brand-dark: #2C003E;
+    --color-brand-light: #D2FAFB;
+
+    --color-brand-black: #040006;
+    --color-brand-white: #eae6ec
+}
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--color-brand-black);
+    background-color: var(--color-brand-white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Layout Utilities */
+.container {
+    max-width: min(80%, 960px);
+    margin: 0 auto;
+}
