@@ -35,6 +35,9 @@ const App = () => {
       <div className="container">
         <MovieList searchResult={searchResult} />
       </div>
+      <footer className="page-footer">
+        Moovie Web App by fash22.
+      </footer>
     </>
   );
 };
